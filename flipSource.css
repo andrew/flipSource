@@ -1,0 +1,37 @@
+html{
+  -webkit-transform: rotateY(0deg);
+  -webkit-transition: all .5s ease-in-out;
+}
+html.flip{
+  -webkit-transform: rotateY(180deg);
+}
+.viewSource{
+  width:69px;
+  height:55px;
+  position:absolute;
+  top:0;
+  left:0;
+  background:url(pagecurl.png) bottom right;
+  text-indent:-9999px;
+  z-index:9999;
+}
+.viewSource:hover{
+  background-position: top left;
+}
+#view-source{
+  display:none;
+  -webkit-transform: rotateY(180deg);
+  width:100%;
+  z-index:9998;
+  color:#fff;
+  text-shadow: 0 1px 0 #000;
+  position:absolute;
+  white-space: nowrap;
+  overflow:auto;
+  top:0;
+  left:0;
+  background-color:rgba(0, 0, 0, 0.85);
+}
+.source-inner{
+  padding:20px;
+}
