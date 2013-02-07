@@ -32,4 +32,4 @@ Then once the page has loaded, just call `flipSource` on the body
 
 ## Copyright
 
-Copyright (c) 2010 Andrew Nesbitt. See LICENSE for details.
+Copyright (c) 2013 Andrew Nesbitt. See LICENSE for details.
